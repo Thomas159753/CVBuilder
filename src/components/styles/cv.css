@@ -1,0 +1,35 @@
+aside{
+    background-color: var(--white);
+    width: 70%;
+    padding: 1rem;
+}
+
+h1{
+    font-size: 2rem;
+}
+
+h3,p{
+    padding-top: 0.5rem;
+}
+
+section{
+    padding-bottom: 0.5rem;
+}
+li{list-style-type: none;}
+
+@media print {
+    aside {
+        width: 100% !important;
+        background-color: #ffffff !important;
+    }
+    aside button{
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 1366px){
+    aside{
+        width: 100%;
+        overflow: auto;
+    }
+}
